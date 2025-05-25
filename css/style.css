@@ -1,0 +1,97 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #a8c4d6;
+    font-family: Arial, sans-serif;
+    color: #e6f0ff;
+}
+
+body {
+    position: relative;
+}
+
+.background-photo {
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 700px;
+    height: 800px;
+    background-image: url("../images/biblioteca.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+    opacity: 0.4;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    z-index: 0;
+    pointer-events: none;
+}
+
+.formular {
+    position: relative;
+    z-index: 1;
+    max-width: 640px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: rgba(10, 25, 47, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #cce0ff;
+}
+
+fieldset {
+    border: 1px solid #ccddee;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: #99c2ff;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+input[type="text"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #88aacc;
+    border-radius: 6px;
+    background-color: #1c2e44;
+    color: #e6f0ff;
+}
+
+textarea {
+    resize: none;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #336699;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+input[type="submit"]:hover {
+    background-color: #285680;
+}
