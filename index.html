@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Formular cititor</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="background-photo"></div>
+
+    <div class="formular">
+        <h2>Formularul de înregistrare a cititorului</h2>
+        <form>
+            <fieldset>
+                <legend>Date generale</legend>
+
+                <label>Nume, Prenume:</label>
+                <input type="text"><br>
+
+                <label>Data nașterii:</label>
+                <input type="date"><br>
+
+                <label>Genul:</label>
+                <label><input type="radio" name="gen" value="M"> M</label>
+                <label><input type="radio" name="gen" value="F"> F</label><br>
+
+                <label>Regiunea:</label>
+                <select>
+                    <option>Nord</option>
+                    <option>Centru</option>
+                    <option>Sud</option>
+                </select><br>
+
+                <label>Regulile pentru cititori:</label><br>
+                <textarea rows="4" readonly>
+Accesul în bibliotecă este liber. Dacă doriți să accesați resurse ce nu sunt indicate, ne contactați.
+                </textarea><br>
+
+                <label><input type="checkbox"> Acceptați regulile</label><br><br>
+
+                <input type="submit" value="Înregistrează">
+            </fieldset>
+        </form>
+    </div>
+
+</body>
+</html>
